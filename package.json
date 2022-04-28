@@ -7,6 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.1"
+    "@iconify-json/carbon": "^1.1.3",
+    "@unocss/core": "^0.32.1",
+    "@unocss/nuxt": "^0.32.1",
+    "@unocss/reset": "^0.32.1",
+    "nuxt": "3.0.0-rc.1",
+    "unocss": "^0.32.1"
   }
 }
