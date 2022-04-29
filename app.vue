@@ -1,7 +1,17 @@
+<script setup>
+useHead({
+  title: 'Hn',
+  meta: [
+    {
+      name: 'description',
+      content: 'Hack news'
+    }
+  ]
+})
+</script>
+
 <template>
-  <div>
-    <!-- <NuxtLayout> -->
+  <NuxtLayout>
     <NuxtPage />
-    <!-- </NuxtLayout> -->
-  </div>
+  </NuxtLayout>
 </template>
