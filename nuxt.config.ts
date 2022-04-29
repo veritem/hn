@@ -6,6 +6,7 @@ export default defineNuxtConfig({
         '@unocss/nuxt',
     ],
     unocss: {
+        uno: true,
         attributify: true,
         icons: true,
         components: false,

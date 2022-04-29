@@ -1,5 +1,5 @@
 <script setup>
-const { } = useDa
+const { data } = useFetch("https://api.hnpwa.com/v0/news/1.json")
 </script>
 
 <template>

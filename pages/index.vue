@@ -5,7 +5,7 @@ const { data } = await useFetch("https://api.hnpwa.com/v0/news/1.json")
 
 <template>
   <section>
-    <div v-for="article in data" :key="article.id" class="font-sans">
+    <div v-for="article in data" :key="article.id">
       <a :href="article.url" target="_blank">
         {{ article.title }} <span>{{ article.time_ago }}</span>
       </a>
