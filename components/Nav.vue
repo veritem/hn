@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
     <nav>
         <h1>Hacker news</h1>
@@ -8,11 +12,3 @@
         </ul>
     </nav>
 </template>
-<script>
-export default {
-
-}
-</script>
-<style lang="">
-    
-</style>
