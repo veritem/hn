@@ -7,7 +7,6 @@ const { data } = await useFetch<Article[]>("https://api.hnpwa.com/v0/news/1.json
 
 const route = useRoute()
 
-console.log(data)
 
 // definePageMeta({
 //   layout: "home"
