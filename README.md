@@ -9,4 +9,4 @@
 
 #### License
 
-[MIT](https://github.com/veritem/useform/blob/main/LICENSE) Verite Makuza Mugabo &copy;2022
+[MIT](https://github.com/veritem/hn/blob/main/LICENSE) Verite Makuza Mugabo &copy;2022
