@@ -1,13 +1,10 @@
 <script setup lang="ts">
+import { Article } from "~/components/ArticleList.vue";
+const route = useRoute();
 
-import { Article } from '~/components/ArticleList.vue';
-
-
-const { data, error, pending } = await useFetch<Article[]>("https://api.hnpwa.com/v0/news/1.json");
-
-const route = useRoute()
-
-
+const { data, error, pending } = await useFetch<Article[]>(
+  "https://api.hnpwa.com/v0/news/1.json"
+);
 </script>
 
 <template>
@@ -25,6 +22,5 @@ const route = useRoute()
     <section v-if="error">
       <p>{{ JSON.stringify(error, null, 2) }}</p>
     </section>
-
   </section>
 </template>

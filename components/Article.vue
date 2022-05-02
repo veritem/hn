@@ -10,7 +10,7 @@ defineProps<{
   <div class="py-4">
     <NuxtLink :to="`${article.url.indexOf('https://')
     ? article.url
-    : '/items' + article.url.split('?')[1]
+    : '/items' + article.url.split('=')[1]
     }`" target="_blank">
       <div class="flex gap-5">
         <h3>{{ article.title }}</h3>

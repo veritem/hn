@@ -1,27 +1,27 @@
 <script setup lang="ts">
-const route = useRoute();
+// const route = useRoute();
 
-type Item = {
-  url: string;
-  title: string;
-  domain: string;
-  points: number;
-  user: string;
-  time_ago: string;
-  content: string;
-};
+// type Item = {
+//   url: string;
+//   title: string;
+//   domain: string;
+//   points: number;
+//   user: string;
+//   time_ago: string;
+//   content: string;
+// };
 
 
-const { data } = useFetch<Item>(
-  `https://api.hnpwa.com/v0/item/${route.params.id}.json`
-);
+// const { data } = useFetch<Item>(
+//   `https://api.hnpwa.com/v0/item/${route.params.id}.json`
+// );
 
-definePageMeta({
-  title: data.value.title,
-});
+// definePageMeta({
+//   title: data.value.title,
+// });
 </script>
 
-<template>
+<!-- <template>
   <section>
     <NuxtLink :to="data.url">
       <h1>{{ data.title }}</h1>
@@ -38,4 +38,4 @@ definePageMeta({
       <span v-html="data.content"></span>
     </div>
   </section>
-</template>
+</template> -->
