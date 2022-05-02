@@ -1,8 +1,8 @@
 <script setup>
-const { data } = await useFetch("https://api.hnpwa.com/v0/news/1.json")
+const { data } = await useFetch("https://api.hnpwa.com/v0/news/1.json");
 defineComponent({
-  layout: "default"
-})
+  layout: "default",
+});
 </script>
 
 <template>

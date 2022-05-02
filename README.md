@@ -1,42 +1,12 @@
-# Nuxt 3 Minimal Starter
+## HN
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+> Yet another hacker news client
 
-## Setup
+### Why I built this
 
-Make sure to install the dependencies:
+- I was bored and wanted to make something cool
+- I wanted to explore nuxt.js and vue.js(it's pretty cool)
 
-```bash
-# yarn
-yarn install
+#### License
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+[MIT](https://github.com/veritem/useform/blob/main/LICENSE) Verite Makuza Mugabo &copy;2022

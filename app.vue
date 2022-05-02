@@ -1,13 +1,13 @@
 <script setup>
 useHead({
-  title: 'Hn',
+  title: "Hn",
   meta: [
     {
-      name: 'description',
-      content: 'Hack news'
-    }
-  ]
-})
+      name: "description",
+      content: "Hack news",
+    },
+  ],
+});
 </script>
 
 <template>
