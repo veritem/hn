@@ -1,22 +1,30 @@
-<script setup>
+<script setup lang="ts">
 
-const { data } = await useFetch("https://api.hnpwa.com/v0/news/1.json");
+import { Article } from '~/components/ArticleList.vue';
 
-// console.log(data)
+
+const { data } = await useFetch<Article[]>("https://api.hnpwa.com/v0/news/1.json");
+
+const route = useRoute()
+
+console.log(data)
+
+// definePageMeta({
+//   layout: "home"
+// })
 
 </script>
 
 <template>
   <section class="px-64 py-20 font-sans">
-    <nuxt-child />
-    <div v-for="article in data" :key="article.id">
-      <!-- <a :href="article.url" target="_blank">
-        {{ article.title }} <span>{{ article.time_ago }}</span>
-      </a> -->
-      <Article :title="article.title" :time_ago="article.time_ago" :url="article.url" />
+    <ArticleList :articles="data" />
+    <NuxtLink v-if="$route.params.id" :to="'/' + route.params.id + 1">
+      <p>{{ route.params.id + 1 }}</p>
+    </NuxtLink>
+    <div class="text-right">
+      <NuxtLink to="/2">
+        <p class="text-blue-500">Next</p>
+      </NuxtLink>
     </div>
-    <!-- <NuxtLink :to="route.params.id ">
-      Next
-    </NuxtLink> -->
   </section>
 </template>
