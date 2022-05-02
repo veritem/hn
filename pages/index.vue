@@ -3,11 +3,10 @@
 import { Article } from '~/components/ArticleList.vue';
 
 
-const { data } = await useFetch<Article[]>("https://api.hnpwa.com/v0/news/1.json");
+const { data, error, pending } = await useFetch<Article[]>("https://api.hnpwa.com/v0/news/1.json");
 
 const route = useRoute()
 
-console.log({ data })
 
 </script>
 
@@ -22,5 +21,10 @@ console.log({ data })
         <p class="text-blue-500">Next</p>
       </NuxtLink>
     </div>
+
+    <section v-if="error">
+      <p>{{ JSON.stringify(error, null, 2) }}</p>
+    </section>
+
   </section>
 </template>

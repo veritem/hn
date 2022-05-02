@@ -1,16 +1,17 @@
 <script setup lang="ts">
-import { Article } from './ArticleList.vue';
-
+import { Article } from "./ArticleList.vue";
 
 defineProps<{
-  article: Article
-}>()
+  article: Article;
+}>();
 </script>
 
 <template>
   <div class="py-4">
-    <NuxtLink :to="`${article.url.indexOf('https://') ? article.url : '/items' + article.url.split('?')[1]}`"
-      target="_blank">
+    <NuxtLink :to="`${article.url.indexOf('https://')
+    ? article.url
+    : '/items' + article.url.split('?')[1]
+    }`" target="_blank">
       <div class="flex gap-5">
         <h3>{{ article.title }}</h3>
         <p class="text-sm text-gray-500">{{ article.time_ago }}</p>
@@ -21,7 +22,6 @@ defineProps<{
         <span>|</span>
         <p>{{ article.comments_count }} comments</p>
       </div>
-
     </NuxtLink>
   </div>
 </template>
