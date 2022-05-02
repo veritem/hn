@@ -7,16 +7,15 @@ const route = useRoute()
 
 const { data } = await useFetch<Article[]>(`https://api.hnpwa.com/v0/news/${route.params.id}.json`);
 
-definePageMeta({
-    layout: "default"
-})
+console.log({ data })
+
 </script>
    
 <template>
     <section>
         <ArticleList :articles="data" />
         <div class="flex justify-between text-blue-500 block py-12">
-            <NuxtLink :to="`/${route.params.id > 1 ? route.params.id - 1 : ''}`">
+            <NuxtLink :to="`/${route.params.id > 0 ? route.params.id - 1 : ''}`" v-if="route.params.id > 1">
                 <p> Back</p>
             </NuxtLink>
             <NuxtLink :to="`/${Number(route.params.id) + 1}`">

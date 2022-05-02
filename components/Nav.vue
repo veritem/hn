@@ -2,7 +2,7 @@
 
 <template>
   <nav class="flex  border-b-2  border-blue-500 justify-around py-5">
-    <NuxtLink to="/">Hacker news</NuxtLink>
+    <NuxtLink to="/1">Hacker news</NuxtLink>
     <ul class="flex gap-4">
       <li>
         <NuxtLink to="/1">

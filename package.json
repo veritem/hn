@@ -8,14 +8,15 @@
     "lint": "eslint --ext .ts,.vue --fix"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.3",
-    "@unocss/core": "^0.32.1",
-    "@unocss/nuxt": "^0.32.1",
+    "@iconify-json/carbon": "^1.1.4",
+    "@nuxtjs/eslint-config": "^10.0.0",
+    "@unocss/core": "^0.32.9",
+    "@unocss/nuxt": "^0.32.9",
     "@unocss/preset-typography": "^0.32.9",
-    "@unocss/reset": "^0.32.1",
+    "@unocss/reset": "^0.32.9",
     "eslint": "^8.14.0",
-    "nuxt": "3.0.0-rc.1",
-    "unocss": "^0.32.1",
+    "nuxt": "3.0.0-rc.2",
+    "unocss": "^0.32.9",
     "vite": "^2.9.7"
   }
 }

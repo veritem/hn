@@ -8,6 +8,8 @@ export type Article = {
     time: string
     user: string
     comments_count: string
+    points: string
+    domain: string
 }
 
 defineProps<{

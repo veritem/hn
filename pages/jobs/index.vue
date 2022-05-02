@@ -1,5 +1,5 @@
-<template>
-    <div>
-        <h1>This page is still WIP</h1>
-    </div>
-</template>
+<script setup lang="ts">
+
+navigateTo("/jobs/1")
+
+</script>
