@@ -13,7 +13,7 @@ definePageMeta({
 </script>
    
 <template>
-    <section class="px-12 py-15 md:px-64 md:py-20 font-sans">
+    <section>
         <ArticleList :articles="data" />
         <div class="flex justify-between text-blue-500 block py-12">
             <NuxtLink :to="`/${route.params.id > 1 ? route.params.id - 1 : ''}`">

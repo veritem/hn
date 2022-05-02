@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav class="flex bg-blue-500 justify-around py-5 text-white">
+  <nav class="flex  border-b-2  border-blue-500 justify-around py-5">
     <NuxtLink to="/">Hacker news</NuxtLink>
     <ul class="flex gap-4">
       <li>

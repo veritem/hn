@@ -12,5 +12,7 @@ useHead({
 
 <template>
   <Nav />
-  <NuxtPage />
+  <section class="px-64 py-20 font-sans">
+    <NuxtPage />
+  </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h1>This page is still WIP</h1>
+        This page is still WIP
     </div>
 </template>

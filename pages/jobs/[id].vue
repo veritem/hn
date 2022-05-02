@@ -1,5 +1,7 @@
 <template>
   <section>
-    <div>id</div>
+    <div>
+      <h1>This page is still WIP</h1>
+    </div>
   </section>
 </template>

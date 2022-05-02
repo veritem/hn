@@ -11,6 +11,7 @@
     "@iconify-json/carbon": "^1.1.3",
     "@unocss/core": "^0.32.1",
     "@unocss/nuxt": "^0.32.1",
+    "@unocss/preset-typography": "^0.32.9",
     "@unocss/reset": "^0.32.1",
     "eslint": "^8.14.0",
     "nuxt": "3.0.0-rc.1",
