@@ -12,13 +12,15 @@ specifiers:
   unocss: ^0.32.9
   vite: ^2.9.7
 
-devDependencies:
+dependencies:
   '@iconify-json/carbon': 1.1.4
+  '@unocss/reset': 0.32.9
+
+devDependencies:
   '@nuxtjs/eslint-config': 10.0.0_eslint@8.14.0
   '@unocss/core': 0.32.9
   '@unocss/nuxt': 0.32.9_vite@2.9.7
   '@unocss/preset-typography': 0.32.9
-  '@unocss/reset': 0.32.9
   eslint: 8.14.0
   nuxt: 3.0.0-rc.2_vite@2.9.7
   unocss: 0.32.9_vite@2.9.7
@@ -379,11 +381,10 @@ packages:
     resolution: {integrity: sha512-I2Y80wAR+Z3Ut68xiwBfRtw4Lwj7IqeOkCfEnWFC9/dA2ixIJEkCxy8HyNLO3z9RiSF7HZtgI8qGHhyNA2b6EQ==}
     dependencies:
       '@iconify/types': 1.1.0
-    dev: true
+    dev: false
 
   /@iconify/types/1.1.0:
     resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}
-    dev: true
 
   /@iconify/utils/1.0.32:
     resolution: {integrity: sha512-m+rnw7qKHq/XF7DAi4BcFoEAcXBfqqMgQJh8brGEHeqE/RUvgDMjmxsHgWnVpFsG+VmjGyAiI7nwXdliCwEU0Q==}
@@ -1000,7 +1001,6 @@ packages:
 
   /@unocss/reset/0.32.9:
     resolution: {integrity: sha512-H7MVOCmlDc78hl7nb1Ct+Sa1Hp2wtiO5qLhkHAvd3sB0R0l8kccBDTU7RcGpBD1Vq4QspCadFM5zjLScndyp5A==}
-    dev: true
 
   /@unocss/scope/0.32.9:
     resolution: {integrity: sha512-Mv2jFxGuV369Zn3rLb/cKQp/yyw7IVp0TrSd3j7Q3WUTqqg2zjKxXcRGs3EVHtfJV0YC6LxGc1HA7iwH5voAQQ==}
