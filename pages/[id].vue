@@ -7,7 +7,6 @@ const route = useRoute()
 
 const { data } = await useFetch<Article[]>(`https://api.hnpwa.com/v0/news/${route.params.id}.json`);
 
-console.log({ data })
 
 </script>
    

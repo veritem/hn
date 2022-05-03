@@ -3,7 +3,6 @@
 
 const route = useRoute()
 
-console.log(route.params.name)
 
 const { data } = await useFetch<{
     id: string
