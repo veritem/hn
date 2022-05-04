@@ -20,5 +20,8 @@
     "@unocss/reset": "^0.32.9",
     "unocss": "^0.32.9",
     "@iconify-json/carbon": "^1.1.4"
+  },
+  "resolutions": {
+    "resolve": "1.20.0"
   }
 }
