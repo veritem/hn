@@ -10,16 +10,17 @@
   "devDependencies": {
     "eslint": "^8.14.0",
     "nuxt": "3.0.0-rc.2",
-    "vite": "^2.9.7"
+    "vite": "^2.9.7",
+    "webpack": "^5.72.0"
   },
   "dependencies": {
+    "@iconify-json/carbon": "^1.1.4",
     "@nuxtjs/eslint-config": "^10.0.0",
     "@unocss/core": "^0.32.9",
     "@unocss/nuxt": "^0.32.9",
     "@unocss/preset-typography": "^0.32.9",
     "@unocss/reset": "^0.32.9",
-    "unocss": "^0.32.9",
-    "@iconify-json/carbon": "^1.1.4"
+    "unocss": "^0.32.9"
   },
   "resolutions": {
     "resolve": "1.20.0"
