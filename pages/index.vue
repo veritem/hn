@@ -1,3 +1,3 @@
 <script setup lang="ts">
-navigateTo('/1')
+navigator('/1')
 </script>
