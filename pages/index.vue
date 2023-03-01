@@ -1,3 +1,5 @@
 <script setup lang="ts">
-navigator('/1')
+await navigateTo('/1')
 </script>
+
+<template></template>
