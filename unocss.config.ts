@@ -1,15 +1,22 @@
 import {
   defineConfig,
   presetAttributify,
-  presetIcons, presetTypography, presetUno,
+  presetIcons,
+  presetTypography,
+  presetUno,
   presetWebFonts,
   transformerDirectives,
-  transformerVariantGroup
+  transformerVariantGroup,
 } from "unocss";
 
 export const defaultConfig = defineConfig<{}>({
   details: true,
-  presets: [presetAttributify(), presetIcons(), presetUno(), presetTypography()],
+  presets: [
+    presetAttributify(),
+    presetIcons(),
+    presetUno(),
+    presetTypography(),
+  ],
   transformers: [transformerVariantGroup(), transformerDirectives()],
 });
 

@@ -8,19 +8,19 @@
     "lint": "eslint --ext .ts,.vue --fix"
   },
   "devDependencies": {
-    "eslint": "^8.35.0",
-    "nuxt": "3.2.3",
-    "vite": "^4.1.4",
-    "webpack": "^5.75.0"
+    "eslint": "^8.42.0",
+    "nuxt": "3.5.3",
+    "vite": "^4.1.5",
+    "webpack": "^5.86.0"
   },
   "dependencies": {
-    "@iconify-json/carbon": "^1.1.16",
+    "@iconify-json/carbon": "^1.1.18",
     "@nuxtjs/eslint-config": "^12.0.0",
-    "@unocss/core": "^0.50.3",
-    "@unocss/nuxt": "^0.50.3",
-    "@unocss/preset-typography": "^0.50.3",
-    "@unocss/reset": "^0.50.3",
-    "unocss": "^0.50.3"
+    "@unocss/core": "^0.53.1",
+    "@unocss/nuxt": "^0.53.1",
+    "@unocss/preset-typography": "^0.53.1",
+    "@unocss/reset": "^0.53.1",
+    "unocss": "^0.53.1"
   },
   "resolutions": {
     "resolve": "1.20.0"
