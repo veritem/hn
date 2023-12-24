@@ -14,7 +14,9 @@ export const defaultConfig = defineConfig<{}>({
   presets: [
     presetAttributify(),
     presetIcons(),
-    presetUno(),
+    presetUno({
+		dark: "media"
+	}),
     presetTypography(),
   ],
   transformers: [transformerVariantGroup(), transformerDirectives()],
