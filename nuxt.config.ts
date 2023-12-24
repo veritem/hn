@@ -7,4 +7,7 @@ export default {
     components: false,
     webFonts: true,
   },
+  module: [
+	"@vueuse/nuxt"
+  ]
 };

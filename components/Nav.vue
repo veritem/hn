@@ -1,21 +1,16 @@
 <script setup></script>
 
 <template>
-  <nav class="flex  border-b-2  border-blue-500 justify-around py-5">
-    <NuxtLink to="/1">Hacker news</NuxtLink>
-    <ul class="flex gap-4">
-      <li>
-        <NuxtLink to="/1">
-          News
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/jobs/1">
-          Jobs
-        </NuxtLink>
-      </li>
-    </ul>
-  </nav>
+	<nav class="flex  border-b-3 border-blue-500 justify-around py-5">
+		<NuxtLink to="/" class="text-">Hacker news</NuxtLink>
+		<ul class="flex gap-4">
+			<li>
+				<NuxtLink to="/jobs/1">
+					Jobs
+				</NuxtLink>
+			</li>
+		</ul>
+	</nav>
 </template>
 
 <style>
